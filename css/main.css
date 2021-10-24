@@ -1,0 +1,678 @@
+/*start body*/
+* {
+    box-sizing: border-box;
+}
+
+
+/*end color body*/
+
+.container {
+/*    width: 1120px;*/
+    margin: auto;
+    overflow: hidden;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*
+.clearfix{
+    clear: both;
+}
+*/
+/* start header*/
+.header {
+    overflow: hidden;
+    min-height: 800px;
+    background-image: url(../images/thanos.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header .slider {
+
+    text-align: center;
+
+}
+
+.header .slider .container h2 {
+    color: #FFFFFF;
+    font-size: 50px;
+    margin: 33% 0 auto;
+    padding: 12px;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+
+}
+
+.header .slider .container button {
+    margin-top: 47px;
+    padding: 30px 40px;
+    background-color: transparent;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-family: Arial, fantasy;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.header .slider .container button:hover {
+    color: #2ECC71;
+    background-color: #FFF;
+    transition: .8s;
+}
+
+
+.header .navbar h2 {
+    float: left;
+    font-family: 'Arial', serif;
+
+}
+
+.header .navbar h2 span {
+    color: #2ECC71;
+    font-family: 'Arial', serif;
+
+}
+
+.header .navbar {
+    background-color: #252E30;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0px;
+    overflow: hidden;
+    float: right;
+
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+    font-weight: 600;
+    font-family: 'Arial', serif;
+}
+
+.header .navbar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header .navbar ul li .active {
+    color: #2ECC71;
+}
+
+.header .navbar ul li a:hover {
+    color: #2ECC71;
+}
+
+/* Start feature*/
+.about {
+    overflow: hidden;
+}
+
+.about .main p {
+    text-align: inherit;
+    color: #919191;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
+.about .main h2 {
+    color: #576467;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+/*feat*/
+.feature {
+    overflow: hidden;
+}
+
+.feature .feat {
+    float: left;
+    width: 33.33333%;
+    height: 240px;
+    background-color: #FFFFFF;
+}
+
+.feature .feat h2 {
+    color: #576467;
+}
+
+.feature .feat p {
+    color: #919191;
+    font-family: 'Arial', serif;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 0 15px 0 0;
+    font-size: 20px;
+
+}
+
+/* end  feature*/
+
+/* Start about*/
+.info {
+    background-color: #F2F2F1;
+    overflow: hidden;
+}
+
+.info .container {
+    overflow: hidden;
+    height: 600px;
+    background-color: white;
+
+}
+
+.info .container .image {
+    float: left;
+    width: 50%;
+
+
+
+}
+
+.info .container .image img {
+    width: auto;
+    height: 700px;
+}
+
+/*.info .container .about{ float: right;}*/
+.info .container .about {
+    float: right;
+    width: 50%;
+}
+
+.info .container .main,
+.hobbies {
+    padding-left: 20px;
+}
+
+.info .container .hobbies .content {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    padding-right: 30px;
+    overflow: hidden;
+
+}
+
+.content .co {
+    float: left;
+    width: 12%;
+    margin-top: 15px;
+    margin-right: 10px;
+
+}
+
+.content .co img {
+    width: 30px;
+    height: 40px;
+}
+
+
+
+.contet .text h2 {
+    font-size: 23px;
+}
+
+
+.info .container .hobbies > div p {
+    text-align: left;
+}
+
+/* End about me*/
+
+/*Start skills*/
+.skills .container {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.skills .container .myskills,
+.skills .container .progress {
+    float: left;
+    width: 50%
+}
+
+.skills .container .myskills h2 {
+    color: #576467;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.skills .container .myskills p {
+    text-align: left;
+    color: #919191;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
+.skills .myskills button {
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: transparent;
+    border: 3px solid #2ECC71;
+    color: #2ECC71;
+    font-family: Arial, fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills .myskills button:hover {
+    color: #FFF;
+    background-color: #2ECC71;
+    transition: .8s;
+}
+
+/*End skills*/
+
+/*start remuse*/
+.resmuse {
+    background-color: #F2F2F1;
+    position: relative;
+}
+
+.resmuse .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.resmuse .container .download h2 {
+    color: #576467;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.resmuse .container .download p {
+    text-align: center;
+    color: #919191;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px
+}
+
+.resmuse .container .download {
+    text-align: center;
+}
+
+.resmuse .container button {
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 3px solid #2ECC71;
+    color: #2ECC71;
+    font-family: Arial, fantasy;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resmuse .container button:hover {
+    color: #FFF;
+    background-color: #2ECC71;
+    transition: .8s;
+}
+
+.resmuse::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #F2F2F1;
+    position: absolute;
+    left: 50%;
+
+
+}
+
+
+/*end remuse*/
+
+/*Start education*/
+.skills .container {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.n2-myskills .container,
+.info-name,
+.n-skills .container h2,
+h3 {
+    color: #566366;
+}
+
+.n2-skills .container .n2-myskills {
+    float: left;
+    width: 50%
+}
+
+.n2-skills .container .n2-myskills {
+    line-height: 1.5
+}
+
+.n2-skills .container,
+.info-name,
+.n-skills .container p {
+    color: #919191;
+    font-family: sans-serif;
+
+}
+
+.n-skills .container .n-myskills {
+    float: left;
+    width: 50%;
+}
+
+.n-skills .container .n-progress {
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+    margin-left: 5%;
+
+}
+
+.n2-skills .container .n2-progress {
+    float: left;
+    width: 45%;
+    padding-top: 40px;
+    margin-left: 5%;
+}
+
+.n-progress > span,
+.n2-progress > span {
+    display: inline-block;
+    padding: 10px;
+    background-color: #2FCC72;
+    color: #FFF;
+}
+
+.n2-myskills {
+    float: left;
+    width: 55%;
+}
+
+.n2-skills .container h2,
+h3 {
+    color: #566366;
+}
+
+
+/*End edu*/
+.progress .pro {
+    width: 90%;
+    height: 20px;
+    margin-left: 5px;
+    background-color: #F2F2F1;
+
+}
+
+.progress .carry {
+    margin-left: 17px;
+    padding-top: 20px;
+}
+
+/*End education*/
+/*style line 320,318 p,h2/h3 */
+.small-info .container .info-name q {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: #90968ecf;
+    line-height: 1.5;
+}
+
+.small-info .container .info-name .jhon {
+
+    color: #75756d;
+}
+
+.small-info .container .info-name .slide-circle {
+
+    padding: 5px;
+    display: inline-table;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+}
+
+/*End Style*/
+
+.progress .pro .pro-green span {
+    width: 90%;
+    height: 20px;
+    background-color: #2ECC71;
+    display: block;
+    color: #FFF;
+    text-align: right;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+
+
+/*start remuse*/
+.small-info {
+    background-color: #F2F2F1;
+}
+
+.small-info .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.small-info .container .info-name {
+    text-align: center;
+}
+
+.small-info .container .info-name h2 {
+    text-align: center;
+    color: #404a4c;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/*end remuse*/
+/* Start portfolio*/
+.portfolio {
+    padding-bottom: 20px;
+}
+
+.portfolio .container {
+    overflow: hidden;
+    padding-top: 20px;
+    /* padding-bottom: 20px;*/
+}
+
+.portfolio .container .works > div {
+    float: left;
+    width: 33.33333%;
+    padding-bottom: 15px;
+
+}
+
+.portfolio .container .works div img:hover {
+    cursor: pointer;
+    filter: sepia(80%);
+
+}
+
+.portfolio .container .works div > img {
+    width: 90%;
+    border: 2px solid #ccc;
+    box-shadow: 8px 7px 9px #ccc;
+    transition: 2s;
+
+}
+
+.portfolio .container .works p {
+    padding-bottom: 10px;
+    text-align: center;
+    color: #90968ecf;
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.portfolio .container .works h2 {
+    color: #404a4c;
+    text-align: center;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/* Endportfolio*/
+
+/*start contact*/
+.contact {
+    background-color: #252E30;
+}
+
+.contact .container {
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.contact .container > div {
+    float: left;
+    width: 50%;
+}
+
+.contact .container .info-contact h2 {
+    color: #F4F4F4;
+    margin-left: 30px;
+}
+
+.contact .container .info-contact p {
+    color: #919191;
+    font-size: 20px;
+    line-height: 1.3;
+}
+
+.contact .container .info-contact strong {
+    font-size: 20px;
+    color: #F4F4F4;
+}
+
+.contact .container .info-contact span {
+    color: #919191;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+/*end contact*/
+/*start form*/
+.contact .container .form {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.contact .container .form label {
+    color: #F4F4F4;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-top: 30px;
+}
+
+.contact .container .form form input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 70%;
+    height: 30px;
+    background-color: #4B5557;
+    border: none;
+    color: aliceblue;
+}
+
+.contact .container .form textarea {
+    width: 70%;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #4B5557;
+    border: none;
+
+}
+
+.send {
+    text-align: center;
+    width: 35%;
+    height: 30px;
+    color: #F4F4F4;
+    background-color: #4B5557;
+    border: none;
+    font-family: sans-serif;
+    font: 30px;
+    transition: 1s;
+    font-weight: bold;
+}
+
+.send:hover {
+    background-color: #F4F4F4;
+    color: #4B5557;
+}
+
+/*end form*/
+/*Start Footer*/
+.footer {
+    background-color: #191F21;
+}
+
+.footer .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer h2 {
+    color: darkgrey;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.footer div {
+    text-align: center;
+}
+
+/*End Gooter*/
+.icon span {
+    background-color: #485153;
+    padding: 10px;
+    border-radius: 100%;
+    margin: 1.5px;
+
+}
+
+i {
+    font-size: 18px;
+    width: 20px;
+    height: 10px;
+}
+
+.icon span a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon span a:hover {
+    color: white;
+}
+
+/*End icons*/
